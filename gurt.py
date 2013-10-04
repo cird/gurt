@@ -41,7 +41,7 @@ def main():
     otherFile.write(text)
     otherFile.close()
     
-    os.system(otherName) #This gene has been silenced
+    os.system(otherName) #This gene will be silenced
     exit
   
 if __name__ == '__main__':
