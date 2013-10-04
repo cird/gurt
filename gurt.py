@@ -42,7 +42,7 @@ def main():
     otherFile.close()
     
     os.system(otherName) #This gene will be silenced
-    exit
+    exit(0)
   
 if __name__ == '__main__':
     main()
